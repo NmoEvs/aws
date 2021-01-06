@@ -6,3 +6,12 @@ Proof of concept for aws
 
 ## 2 Download dependencies
     go get
+
+## 3 Build
+    go build -o ../bin
+
+# Lambda
+⚠️ need to zip exec from linux + chmod +x exec
+    
+    cd bin
+    zip lambda.zip lambda
